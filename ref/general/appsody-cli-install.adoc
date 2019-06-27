@@ -9,8 +9,8 @@
 == Installing the Appsody CLI 
 On Mac, you can install the Appsody CLI with homebrew. All you need to do is set up the tap and run the install.
 
- `homebrew install appsody` 
- `homebrew tap appsody/appsody`
+ homebrew install appsody 
+ homebrew tap appsody/appsody
 
 To uninstall Appsody, run `brew uninstall appsody`.
 
