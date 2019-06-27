@@ -1,0 +1,17 @@
+= Installing Appsody CLI 
+
+== Prerequisites
+* Mac OSX - We plan to support more oeprating systems in the future.
+* Docker - Appsody projects run in docker containers; follow the instructions on the Docker website to get Docker setup: https://docs.docker.com/docker-for-mac/install
+* Xcode Command Line Tools - run `xcode-select --install` from terminal
+
+
+== Installing the Appsody CLI 
+On Mac, you can install the Appsody CLI with homebrew. All you need to do is set up the tap and run the install.
+
+ `homebrew install appsody` 
+ `homebrew tap appsody/appsody`
+
+To uninstall Appsody, run `brew uninstall appsody`.
+
+*NOTE*: If you are re-installing the CLI or updating to a newer version, to avoid compatibility issues between versions,  delete your existing ~/.appsody directory: `rm -rf ~/.appsody`. You might also want to do this if you are uninstalling Appsody as it will not be deleted by default.
